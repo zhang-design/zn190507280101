@@ -24,5 +24,22 @@ touch 我的.txt  来建立文件名为“我的”的文本文档
 是需要
 git add .
 git commit -m "add file"去提交
+5.版本回退和修改
+git reset --hard HEAD^^
+git log
+git log -pretty=oneline
+git reset -hard 版本号
+git reflog
+6.删除文件
+git rm
+7.分支管理
+
+8.远程仓库git hub注册
+ssh-keygen -t rsa -C 写邮箱地址
+
+9.添加至远程仓库
+10.从远程仓库中克隆
+这几项
+
 
 2019-12-05
